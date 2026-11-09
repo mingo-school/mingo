@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mingo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-in">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="Mingo School">
+                </a>
+
+                <!-- Кнопка мобільного меню -->
+                <button class="menu-toggle" aria-label="Меню" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="nav-links">
+                    <a href="#about" class="nav-link">Про нас</a>
+                    <a href="#languages" class="nav-link">Мови</a>
+                    <div class="dropdown">
+                        <button class="nav-link dropdown-btn" id="dropdownBtn">
+                            Формати <span class="arrow">⌄</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#individual">Індивідуальний</a>
+                            <a href="#pair">Парний</a>
+                            <a href="#group">Груповий</a>
+                            <a href="#corporate">Корпоративне навчання</a>
+                            <a href="#speaking-clubs">Розмовні клуби</a>
+                            <a href="#interview-preparation">Підготовка до співбесід</a>
+                        </div>
+                    </div>
+                    <a href="#reviews" class="nav-link">Відгуки</a>
+                    <a href="#contacts" class="nav-link">Контакти</a>
+                </div>
+            </div>
+
+            <button class="signup-button">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0C12 6.62742 17.3726 12 24 12C17.3726 12 12 17.3726 12 24C12 17.3726 6.62742 12 0 12C6.62742 12 12 6.62742 12 0Z" fill="#FFF1B5"/>
+                </svg>
+                <span>Записатись</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-left">
+                <div class="hero-left-text">
+                    <span class="text-yellow">Ти знаєш</span>
+                    <span class="text-blue">навіщо.</span>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="top-block">
+                    <div class="top-block-content">
+                        <h3>Онлайн-школа іноземних мов<br>для дорослих</h3>
+                        <a href="#" class="logo-btn">[mingo] school</a>
+
+                        <div class="promo-text">
+                            <p><span class="gray">Вивчай</span><br><span class="gray2">Розширюй горизонти</span></p>
+                            <h1>Досягай свого.</h1>
+                        </div>
+                    </div>
+
+                    <div class="pattern-container">
+                        <div class="pattern-grid">
+                            <div class="pattern-circle" style="--hover-img: url('img/flags/s.png')"></div>
+                            <div class="pattern-circle" style="--hover-img: url('img/flags/g.png')"></div>
+                            <div class="pattern-circle" style="--hover-img: url('img/flags/a.png')"></div>
+                            <div class="pattern-circle" style="--hover-img: url('img/flags/k.png')"></div>
+                            <div class="pattern-circle" style="--hover-img: url('img/flags/t.png')"></div>
+                            <div class="pattern-circle" style="--hover-img: url('img/flags/s.png')"></div>
+                            <div class="pattern-circle" style="--hover-img: url('img/flags/g.png')"></div>
+                            <div class="pattern-circle" style="--hover-img: url('img/flags/e.png')"></div>
+                            <div class="pattern-circle" style="--hover-img: url('img/flags/k.png')"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-block">
+                    <div class="blue-box">
+                        <span class="script-white">Ми знаємо</span>
+                        <span class="script-small">як.</span>
+                    </div>
+                    <div class="action-box">
+                        <p>Вивчення мов — це нові можливості для життя, кар'єри, подорожей і спілкування без кордонів.</p>
+                        <button class="cta-button">Безкоштовне пробне<br>заняття</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
