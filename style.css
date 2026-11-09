@@ -554,7 +554,7 @@ body {
     /* Картинка "Ти знаєш навіщо" */
     .hero-left { min-height: 380px; border-radius: 30px; }
     .hero-left-text { right: 20px; top: 25%; }
-    .hero-left-text .text-yellow { font-size: 2.2rem; margin-bottom: -6px; }
+    .hero-left-text .text-yellow { font-size: 2.2rem; margin-bottom: -6px; margin-top: 52px;}
     .hero-left-text .text-blue   { font-size: 3rem; margin-right: -10px; }
 
     /* "Ми знаємо як" — одразу після картинки */
