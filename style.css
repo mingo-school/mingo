@@ -190,11 +190,12 @@ body {
 
 .hero-left-text .text-yellow {
     font-family: var(--font-main);
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
     color: var(--cremy-yellow);
-    font-size: 3.5rem;
+    font-size: 2.5em;
     line-height: 1;
+    margin-right: 32px;
     margin-bottom: -10px;
 }
 
@@ -202,7 +203,7 @@ body {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     color: var(--electric-blue);
-    font-size: 4.5rem;
+    font-size: 3rem;
     line-height: 0.8;
     margin-right: -20px;
 }
@@ -357,8 +358,11 @@ body {
 }
 
 .blue-box .script-white {
-    font-family: "Great Vibes", cursive;
-    font-size: 3.5rem;
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--cremy-yellow);
+    font-size: 2rem;
     line-height: 1;
 }
 
@@ -413,7 +417,7 @@ body {
 /* =========================================
    ПЛАНШЕТ + МОБІЛЬНЕ МЕНЮ (≤ 1024px)
    ========================================= */
-@media (max-width: 1024px) {
+@media (max-width: 1360px) {
 
     /* --- Мобільне меню --- */
     .navbar {
@@ -523,6 +527,7 @@ body {
     .pattern-container { width: 42%; }
 
     .promo-text h1 { white-space: normal; }
+    .cta-button { font-size: 1rem; padding: 14px 16px; border-radius: 30px; margin-top: 24px;}
 }
 
 /* =========================================
